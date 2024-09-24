@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Digital/gra_design_xxw/gra_design_xxw.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+D:/Digital/gra_design_xxw/gra_design_xxw.srcs/sim_1/new/tb_PLL_60.v,1709118101,verilog,,,,tb_PLL_60,,,../../../../gra_design_xxw.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/Digital/gra_design_xxw/gra_design_xxw.srcs/sim_1/new/tb_without_bubble.v,1706081624,verilog,,,,tb_without_bubble,,,,,,,,
+D:/Digital/gra_design_xxw/gra_design_xxw.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1709116576,verilog,,D:/Digital/gra_design_xxw/gra_design_xxw.srcs/sim_1/new/tb_PLL_60.v,,clk_wiz_0,,,../../../../gra_design_xxw.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/Digital/gra_design_xxw/gra_design_xxw.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1709116576,verilog,,D:/Digital/gra_design_xxw/gra_design_xxw.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../gra_design_xxw.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/Digital/gra_design_xxw/gra_design_xxw.srcs/sources_1/new/without_bubble.v,1706079979,verilog,,D:/Digital/gra_design_xxw/gra_design_xxw.srcs/sim_1/new/tb_without_bubble.v,,without_bubble,,,,,,,,
+D:/Digital/temperature_ds18b20-main/temperature_ds18b20-main/rtl/ds18b20.v,1706621120,verilog,,D:/Digital/temperature_ds18b20-main/temperature_ds18b20-main/tb/tb_ds18b20.v,,ds18b20,,,,,,,,
+D:/Digital/temperature_ds18b20-main/temperature_ds18b20-main/tb/tb_ds18b20.v,1706621120,verilog,,,,tb_ds18b20,,,,,,,,

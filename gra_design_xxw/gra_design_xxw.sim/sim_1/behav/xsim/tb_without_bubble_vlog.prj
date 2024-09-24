@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../gra_design_xxw.srcs/sources_1/new/without_bubble.v" \
+"../../../../gra_design_xxw.srcs/sim_1/new/tb_without_bubble.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,85 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Feb 28 15:30:15 2024
+| Host         : yyf610 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file ds18_top_control_sets_placed.rpt
+| Design       : ds18_top
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    55 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      3 |            1 |
+|      4 |            2 |
+|      7 |            2 |
+|     11 |            2 |
+|     12 |            2 |
+|     13 |            2 |
+|    16+ |            4 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              92 |           28 |
+| No           | Yes                   | No                     |               7 |            1 |
+| Yes          | No                    | No                     |              48 |           12 |
+| Yes          | No                    | Yes                    |              86 |           28 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------+------------------------------------+---------------------------------+------------------+----------------+
+|    Clock Signal    |            Enable Signal           |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++--------------------+------------------------------------+---------------------------------+------------------+----------------+
+|  seg_inst/clk_1khz |                                    | seg_inst/decoder_seg_inst/rst_n |                1 |              3 |
+|  clk_us            | driver_inst1/bit_cnt[3]_i_1_n_0    | seg_inst/decoder_seg_inst/rst_n |                1 |              4 |
+|  clk_us_0          | driver_inst0/bit_cnt               | seg_inst/decoder_seg_inst/rst_n |                1 |              4 |
+|  clk_us            |                                    | seg_inst/decoder_seg_inst/rst_n |                4 |              7 |
+|  clk_us_0          |                                    | seg_inst/decoder_seg_inst/rst_n |                3 |              7 |
+|  sys_clk_IBUF_BUFG | driver_inst0/rd_finish_reg_n_0     | seg_inst/decoder_seg_inst/rst_n |                3 |             11 |
+|  sys_clk_IBUF_BUFG | driver_inst1/rd_finish_reg_n_0     | seg_inst/decoder_seg_inst/rst_n |                2 |             11 |
+|  clk_us            | driver_inst1/data[15]_i_1_n_0      |                                 |                2 |             12 |
+|  clk_us_0          | driver_inst0/data                  |                                 |                2 |             12 |
+|  clk_us            | driver_inst1/data_temp[15]_i_1_n_0 |                                 |                4 |             13 |
+|  clk_us_0          | driver_inst0/data_temp             |                                 |                4 |             13 |
+|  sys_clk_IBUF_BUFG | seg_inst/sel[5]_i_1_n_0            | seg_inst/decoder_seg_inst/rst_n |                5 |             16 |
+|  clk_us            | driver_inst1/cnt_us[19]_i_1__0_n_0 | seg_inst/decoder_seg_inst/rst_n |                7 |             20 |
+|  clk_us_0          | driver_inst0/cnt_us[19]_i_1_n_0    | seg_inst/decoder_seg_inst/rst_n |                9 |             20 |
+|  sys_clk_IBUF_BUFG |                                    | seg_inst/decoder_seg_inst/rst_n |               21 |             82 |
++--------------------+------------------------------------+---------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Feb 28 15:28:51 2024
+# Process ID: 31800
+# Current directory: D:/Digital/gra_design_xxw/gra_design_xxw.runs/synth_1
+# Command line: vivado.exe -log ds18_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ds18_top.tcl
+# Log file: D:/Digital/gra_design_xxw/gra_design_xxw.runs/synth_1/ds18_top.vds
+# Journal file: D:/Digital/gra_design_xxw/gra_design_xxw.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ds18_top.tcl -notrace

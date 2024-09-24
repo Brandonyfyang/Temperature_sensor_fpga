@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../temperature_ds18b20-main/temperature_ds18b20-main/rtl/ds18b20.v" \
+"../../../../../temperature_ds18b20-main/temperature_ds18b20-main/tb/tb_ds18b20.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
